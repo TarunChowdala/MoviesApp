@@ -1,0 +1,70 @@
+.search-route-container {
+  min-height: 100vh;
+  background-color: #181818;
+  padding-bottom: 50px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px white;
+  border-radius: 2px;
+  height: 30px;
+  width: 230px;
+  padding-left: 10px;
+}
+.search-container-failure {
+  margin-top: 50px;
+}
+.search-container-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px white;
+  border-radius: 2px;
+  height: 22px;
+  width: 170px;
+  padding-left: 10px;
+}
+.search-bar {
+  background-color: transparent;
+  outline: none;
+  color: white;
+  border-style: none;
+  width: 81%;
+}
+.nav-box-right-small {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  background-color: #272626;
+  cursor: pointer;
+  height: 100%;
+}
+.nav-box-right-search-bar {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-movies-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  min-height: 80vh;
+}
+.search-failure-para {
+  color: white;
+}
+.search-failure-img {
+  width: 300px;
+}

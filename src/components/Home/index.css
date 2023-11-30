@@ -1,0 +1,229 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #181818;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-description {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.top-section {
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 50px;
+  box-shadow: inset 0 -15px 10px -11px #181818;
+}
+.top-section-loader {
+  width: 80%;
+  height: 50vh;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 20px;
+}
+.error-top-container {
+  width: 80%;
+  height: 50vh;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .movie-description {
+    margin-top: 60px;
+  }
+  .top-section-loader {
+    height: 30vh;
+  }
+  .error-top-container {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .movie-description {
+    margin-top: 35px;
+  }
+  .top-section-loader {
+    height: 30vh;
+  }
+  .error-top-container {
+    height: 30vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .movie-description {
+    margin-top: 35px;
+  }
+}
+.movie-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-family: HK Grotesk;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+.movie-para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: HK Grotesk;
+  max-width: 500px;
+}
+.play-button {
+  border-style: none;
+  padding: 10px;
+  border-radius: 4px;
+  gap: 8px;
+  width: 60px;
+  cursor: pointer;
+}
+
+@media (max-width: 766px) {
+  .movie-description {
+    margin-left: 20px;
+  }
+  .movie-heading {
+    font-family: HK Grotesk;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .movie-para {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .play-button {
+    width: 50px;
+    padding: 7px;
+  }
+}
+/* slider css */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.slick-container {
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  height: 120px;
+  width: 90%;
+  border-radius: 10px;
+}
+.slick-item {
+  width: 25%;
+}
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+}
+
+.slider-heading {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  width: 80%;
+}
+.videos-loader-container {
+  height: 123px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+.failed-container {
+  background-color: black;
+  height: 125px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+}
+.warning-icon {
+  width: 30px;
+}
+.error-para {
+  font-size: 13px;
+  color: white;
+}
+.retry-button {
+  padding: 3px;
+  width: 70px;
+  border-style: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.icons-box {
+  margin-top: 50px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons {
+  color: white;
+}
+.social-icons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us-text {
+  color: white;
+}
+@media (max-width: 576px) {
+  .slider-heading {
+    font-size: 17px;
+  }
+  .logo-image {
+    height: 80px;
+  }
+  .videos-loader-container {
+    height: 83px;
+    width: 80%;
+  }
+  .movie-heading {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 577px) and (max-width: 776px) {
+  .logo-image {
+    height: 100px;
+  }
+  .videos-loader-container {
+    height: 103px;
+    width: 80%;
+  }
+}

@@ -1,0 +1,79 @@
+.popular-container {
+  min-height: 100vh;
+  background-color: #181818;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  position: fixed;
+}
+.popular-route-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.failure-img {
+  width: 300px;
+}
+.failure-para {
+  color: white;
+  font-size: 20px;
+}
+.try-again-button {
+  padding: 8px;
+  width: 80px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.popular-movies-container {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+@media (max-width: 576px) {
+  .popular-movies-container {
+    width: 90%;
+  }
+  .failure-img {
+    width: 200px;
+  }
+  .failure-para {
+    font-size: 15px;
+  }
+  .try-again-button {
+    padding: 8px;
+    width: 80px;
+  }
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.duration {
+  color: white;
+  font-size: 20px;
+}
+.release-year {
+  color: white;
+  font-size: 20px;
+}

@@ -1,0 +1,157 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/dvtotdiqa/image/upload/v1699532498/dyzlpzpdk7bv0sdp3cd7.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.app-logo {
+  width: 150px;
+  height: 52px;
+  margin-top: 48px;
+  margin-left: 150px;
+}
+.label {
+  width: 65px;
+  height: 16px;
+  color: #ffffff;
+}
+@media (max-width: 766px) {
+  .app-logo {
+    width: 100px;
+    height: 27px;
+    margin-top: 32px;
+    margin-left: 32px;
+    padding: 0px, 0px, 0px, 0px;
+  }
+  .label {
+    font-size: 15px;
+  }
+}
+.form-container {
+  background-color: #0c0b10;
+  width: 400px;
+  height: 300px;
+  border-radius: 8px;
+  opacity: 0.8;
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .form-container {
+    width: 370px;
+    height: 330px;
+  }
+  .login-button-mobile {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-container {
+    width: 400px;
+    height: 350px;
+  }
+  .app-logo {
+    width: 125px;
+    height: 35px;
+  }
+  .label {
+    font-size: 15px;
+  }
+}
+
+.input-element {
+  width: 100%;
+  background-color: #333333;
+  padding: 10px;
+  border-style: none;
+  outline: none;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.form {
+  width: 90%;
+}
+.login-button {
+  background-color: #e50914;
+  color: white;
+  width: 100%;
+  border-style: none;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.inner-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-heading {
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+.error-msg {
+  color: #dc2626;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+@media (max-width: 575px) {
+  .form-container {
+    width: 100%;
+    background-color: transparent;
+  }
+  .login-container {
+    background-image: none;
+    background-color: #131313;
+  }
+  .label {
+    width: 65px;
+    height: 16px;
+  }
+  .form-heading {
+    width: 80px;
+    height: 40px;
+    font-family: Roboto;
+  }
+  .login-button-mobile {
+    background-color: #e50914;
+    color: white;
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .login-button {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .login-button-mobile {
+    display: none;
+  }
+}
+@media (max-width: 766px) {
+  .login-button {
+    margin-bottom: 25px;
+  }
+}
